@@ -1,0 +1,5 @@
+interface Dimensional {
+
+    fun printDimensions()
+
+}
