@@ -13,6 +13,6 @@ class Circle (_name: String) : Shape(_name) {
     }
 
     override fun getArea() : Double {
-        return Math.PI * radius.toDouble().pow(2.0)
+        return Math.PI * radius.pow(2.0)
     }
 }

@@ -1,5 +1,3 @@
-import Dimensional
-
 class Square(_name: String) : Shape(_name) {
     var length : Double = 0.0
     var height : Double = 0.0

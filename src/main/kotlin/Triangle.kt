@@ -1,4 +1,3 @@
-import Shape
 import kotlin.math.sqrt
 class Triangle (_name: String) : Shape(_name) {
     var side1: Double = 0.0
@@ -13,7 +12,7 @@ class Triangle (_name: String) : Shape(_name) {
 
     override fun printDimensions() {
         val area = getArea()
-        println("Area: $")
+        println("Area: $area")
     }
 
     override fun getArea() : Double {
